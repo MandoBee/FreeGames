@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ************* Title ************* -->
+  <title>Game Reviews</title>
+  <link rel="shortcut icon" href="./images/logo-sm.png" type="image/x-icon">
+  <!-- ************* Title ************* -->
+
+  <!-- ************* Font ************* -->
+
+  <!-- ************* Font ************* -->
+
+
+  <!-- ************* Style ************* -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link href="./css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- ************* Style ************* -->
+</head>
+
+<body>
+
+  <section class="games">
+    <header>
+      <img src="./images/wraper.png" class="w-100" alt="game photo">
+    </header>
+
+    <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9">
+      <div class="container">
+        <h5 class="navbar-brand mb-0 text-white" >
+          <img src="./images/logo-sm.png" alt="logo photo" style="max-width: 40px"> GAME REVIEWS
+        </h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+            <li class="nav-item">
+              <a role="button" class="nav-link active text-white fs-6" aria-current="page" data-category="mmorpg">Mmorpg</a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link text-white fs-6" data-category="shooter"> Shooter </a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link text-white fs-6" data-category="sailing"> Sailing </a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link text-white fs-6" data-category="permadeath"> Permadeath </a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link text-white fs-6" data-category="superhero"> Superhero </a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link text-white fs-6" data-category="pixel"> Pixel </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-5 home">
+      <section class="position-relative">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData">
+          <div class="col">
+            <div data-id="582" class="card h-100 bg-transparent" role="button" "="">
+            <div class=" card-body">
+              <figure class="position-relative">
+                <img class="card-img-top object-fit-cover h-100" src="https://www.freetogame.com/g/582/thumbnail.jpg">
+              </figure>
+
+              <figcaption>
+                <div class="hstack justify-content-between">
+                  <h3 class="h6 small">Tarisland</h3>
+                  <span class="badge text-bg-primary p-2">Free</span>
+                </div>
+
+                <p class="card-text small text-center opacity-50">
+                  A,cross-platform,MMORPG,developed,by,Level,Infinite,and
+                </p>
+              </figcaption>
+            </div>
+
+            <footer class="card-footer small hstack justify-content-between">
+              <span class="badge badge-color">MMORPG</span>
+              <span class="badge badge-color">PC (Windows)</span>
+            </footer>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <section class="details d-none">
+    <div class="container">
+      <header class="hstack justify-content-between">
+        <h1 class="text-center h3 py-4">Details Game</h1>
+        <button class="btn-close btn-close-white" id="btnClose"></button>
+      </header>
+
+      <div class="row g-4" id="detailsContent">
+        <div class="col-md-4">
+          <img src="https://www.freetogame.com/g/582/thumbnail.jpg" class="w-100" alt="image details">
+        </div>
+        <div class="col-md-8">
+          <h3>Title: Tarisland</h3>
+          <p>Category: <span class="badge text-bg-info"> MMORPG</span> </p>
+          <p>Platform: <span class="badge text-bg-info"> Windows</span> </p>
+          <p>Status: <span class="badge text-bg-info"> Live</span> </p>
+          <p class="small"></p>
+          <a class="btn btn-outline-warning" target="_blank" href="https://www.freetogame.com/open/tarisland">Show
+            Game</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="loading d-none">
+    <span class="loader"></span>
+  </div>
+
+
+  <!-- ************* Script ************* -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="./js/index.js"></script>
+  <!-- ************* Script ************* -->
+</body>
+
+</html>
